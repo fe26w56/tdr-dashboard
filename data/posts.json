@@ -19,6 +19,24 @@
   },
   {
     "date": "2026-02-24",
+    "post_type": "answer_check",
+    "content": "📋2/24 TDS 振り返り\n\n実現率:84%(21/25個)\n予定500分→実際849分\n⬆️フローズン:予20→実101\n✅シーライダー:予20→実17\n\n※過去データに基づくシミュレーションです",
+    "status": "posted",
+    "posted_at": "2026-02-25T13:57:24.897814+00:00",
+    "impressions": 0,
+    "engagements": 0
+  },
+  {
+    "date": "2026-02-24",
+    "post_type": "answer_check",
+    "content": "📋2/24 TDL 振り返り\n\n実現率:100%(26/26個)\n予定520分→実際525分\n⬆️美女と野獣:予20→実73\n✅空飛ぶダンボ:予20→実20\n\n※過去データに基づくシミュレーションです",
+    "status": "posted",
+    "posted_at": "2026-02-25T13:57:24.217744+00:00",
+    "impressions": 0,
+    "engagements": 0
+  },
+  {
+    "date": "2026-02-24",
     "post_type": "daily_forecast",
     "content": "📊 2/24 TDS 混雑予測\n\n混雑度: 🔴🔴🔴⚪⚪ Lv.3\n天気: 雨\nおすすめルート: トイ・ストーリー・マニア!→タワー・オブ・テラー→タートル・トーク\n予想待ち時間: 約500分\n\n※過去データに基づくシミュレーションです\nPowered by Queue-Times.com\n#舞浜 #TDS",
     "status": "posted",
