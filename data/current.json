@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-25T13:40:01.860069+00:00",
+  "updated_at": "2026-02-25T13:48:31.316948+00:00",
   "bot": {
-    "last_collected": "2026-02-25T13:35:03.618781+00:00",
+    "last_collected": "2026-02-25T13:45:05.160873+00:00",
     "last_posted": "2026-02-25T03:50:11.490576+00:00",
     "posts_today": 2
   },
@@ -29,318 +29,390 @@
         "name": "Affection Section",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 13806,
         "name": "Animal Care at Conservation Station",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 4439,
         "name": "Avatar Flight of Passage",
-        "wait_time": 60,
+        "wait_time": 80,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 111,
         "name": "DINOSAUR",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 13809,
         "name": "Dino-Sue",
         "wait_time": 0,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 13811,
         "name": "Discovery Island Trails",
         "wait_time": 0,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 110,
         "name": "Expedition Everest - Legend of the Forbidden Mountain",
         "wait_time": 15,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 14533,
         "name": "Expedition Everest - Legend of the Forbidden Mountain Single Rider",
         "wait_time": 0,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 10921,
         "name": "Feathered Friends in Flight!",
         "wait_time": 0,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 657,
         "name": "Festival of the Lion King",
         "wait_time": 0,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 10920,
         "name": "Finding Nemo: The Big Blue... and Beyond!",
         "wait_time": 0,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 651,
         "name": "Gorilla Falls Exploration Trail",
         "wait_time": 5,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 112,
         "name": "Kali River Rapids",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 113,
         "name": "Kilimanjaro Safaris",
         "wait_time": 5,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 116,
         "name": "Meet Favorite Disney Pals at Adventurers Outpost",
         "wait_time": 15,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 12451,
         "name": "Meet Moana at Character Landing",
         "wait_time": 0,
-        "is_open": false,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "is_open": true,
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 4438,
         "name": "Na'vi River Journey",
-        "wait_time": 10,
+        "wait_time": 25,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 6680,
         "name": "The Animation Experience at Conservation Station",
         "wait_time": 0,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 13812,
         "name": "The Oasis Exhibits",
         "wait_time": 0,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 13751,
         "name": "Tree of Life",
         "wait_time": 0,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 13808,
         "name": "Wilderness Explorers",
         "wait_time": 0,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 655,
         "name": "Wildlife Express Train",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       },
       {
         "attraction_id": 14943,
         "name": "Zootopia: Better Zoogether! - NEW!",
         "wait_time": 5,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:03.618781+00:00"
+        "collected_at": "2026-02-25T13:45:05.160873+00:00"
       }
     ],
     "TDL": [
       {
         "attraction_id": 5477,
         "name": "Alien Swirling Saucers",
-        "wait_time": 0,
-        "is_open": false,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "wait_time": 5,
+        "is_open": true,
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 1176,
         "name": "Beauty and the Beast – Live on Stage",
         "wait_time": 0,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 1174,
         "name": "For the First Time in Forever: A Frozen Sing-Along Celebration",
         "wait_time": 0,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 6702,
         "name": "Indiana Jones™ Epic Stunt Spectacular!",
         "wait_time": 0,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 12430,
         "name": "Meet Ariel at Walt Disney Presents",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 6704,
         "name": "Meet Disney Stars at Red Carpet Dreams",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 12425,
         "name": "Meet Edna Mode at the Edna Mode Experience",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 6703,
         "name": "Meet Olaf at Celebrity Spotlight",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 6361,
         "name": "Mickey & Minnie's Runaway Railway",
-        "wait_time": 0,
-        "is_open": false,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "wait_time": 60,
+        "is_open": true,
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 6368,
         "name": "Millennium Falcon: Smugglers Run - A New Mission",
-        "wait_time": 0,
-        "is_open": false,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "wait_time": 45,
+        "is_open": true,
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 10902,
         "name": "Millennium Falcon: Smugglers Run Single Rider",
         "wait_time": 0,
-        "is_open": false,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "is_open": true,
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 119,
         "name": "Rock 'n' Roller Coaster Starring Aerosmith",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 10901,
         "name": "Rock 'n' Roller Coaster Starring Aerosmith Single Rider",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 5476,
         "name": "Slinky Dog Dash",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 120,
         "name": "Star Tours – The Adventures Continue",
-        "wait_time": 0,
-        "is_open": false,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "wait_time": 5,
+        "is_open": true,
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 6369,
         "name": "Star Wars: Rise of the Resistance",
-        "wait_time": 0,
-        "is_open": false,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "wait_time": 40,
+        "is_open": true,
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 14531,
         "name": "Star Wars: Rise of the Resistance Single Rider",
         "wait_time": 0,
-        "is_open": false,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "is_open": true,
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 14859,
         "name": "The Little Mermaid – A Musical Adventure – New!",
         "wait_time": 0,
         "is_open": true,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 123,
         "name": "The Twilight Zone Tower of Terror™",
         "wait_time": 0,
-        "is_open": false,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "is_open": true,
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 117,
         "name": "Toy Story Mania!",
-        "wait_time": 0,
-        "is_open": false,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "wait_time": 5,
+        "is_open": true,
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 7333,
         "name": "Vacation Fun - An Original Animated Short with Mickey & Minnie",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       },
       {
         "attraction_id": 5145,
         "name": "Walt Disney Presents",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-02-25T13:35:02.477137+00:00"
+        "collected_at": "2026-02-25T13:45:03.237378+00:00"
       }
     ]
-  }
+  },
+  "hourly_waits": {
+    "TDL": [
+      {
+        "hour": "22",
+        "avg": 24.2,
+        "count": 12
+      }
+    ],
+    "TDS": [
+      {
+        "hour": "21",
+        "avg": 20.4,
+        "count": 14
+      },
+      {
+        "hour": "22",
+        "avg": 19.8,
+        "count": 60
+      }
+    ]
+  },
+  "agents": [
+    {
+      "name": "Data Collector",
+      "schedule": "Every 5min",
+      "status": "ok",
+      "last_run": "2026-02-25 13:45:05",
+      "message": ""
+    },
+    {
+      "name": "Daily Pipeline",
+      "schedule": "07:00 JST",
+      "status": "ok",
+      "last_run": "2026-02-24 22:00:07",
+      "message": ""
+    },
+    {
+      "name": "Answer Check",
+      "schedule": "12:00 JST",
+      "status": "error",
+      "last_run": null,
+      "message": "ModuleNotFoundError: No module named 'tdr'"
+    },
+    {
+      "name": "Health Check",
+      "schedule": "Hourly",
+      "status": "ok",
+      "last_run": "2026-02-25 13:00:01",
+      "message": ""
+    },
+    {
+      "name": "Weekend Forecast",
+      "schedule": "Thu 20:00 JST",
+      "status": "no_log",
+      "last_run": null,
+      "message": ""
+    },
+    {
+      "name": "Weekly Research",
+      "schedule": "Mon 06:00 JST",
+      "status": "no_log",
+      "last_run": null,
+      "message": ""
+    },
+    {
+      "name": "Dashboard Export",
+      "schedule": "Every 10min",
+      "status": "ok",
+      "last_run": null,
+      "message": ""
+    }
+  ]
 }
