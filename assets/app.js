@@ -6,6 +6,8 @@ let postsData = null;
 let accuracyData = null;
 let activePark = 'TDL';
 let accuracyChart = null;
+let hourlyChart = null;
+let engagementChart = null;
 
 // ---------------------------------------------------------------------------
 // Data fetching
@@ -25,8 +27,8 @@ async function refreshData() {
     fetchJSON('posts.json'),
     fetchJSON('accuracy.json'),
   ]);
-  if (c) { currentData = c; renderHeader(c); renderWaitTimes(c); }
-  if (p) { postsData = p; renderPosts(p); }
+  if (c) { currentData = c; renderHeader(c); renderWaitTimes(c); renderHourlyChart(c); renderAgents(c); }
+  if (p) { postsData = p; renderPosts(p); renderEngagementChart(p); }
   if (a) { accuracyData = a; renderAccuracy(a); }
 }
 
@@ -133,6 +135,112 @@ function renderWaitTimes(data) {
 }
 
 // ---------------------------------------------------------------------------
+// Hourly Wait Time Chart
+// ---------------------------------------------------------------------------
+
+function renderHourlyChart(data) {
+  const hourlyWaits = data.hourly_waits || {};
+  const container = document.getElementById('hourly-chart-container');
+  const ctx = document.getElementById('hourly-chart');
+  if (!ctx) return;
+
+  const parkData = hourlyWaits[activePark] || [];
+  if (parkData.length === 0) {
+    container.style.display = 'none';
+    return;
+  }
+  container.style.display = 'block';
+
+  const labels = parkData.map(d => d.hour + ':00');
+  const values = parkData.map(d => d.avg);
+  const counts = parkData.map(d => d.count);
+
+  const gradient = ctx.getContext('2d');
+  const grad = gradient.createLinearGradient(0, 0, 0, 220);
+  grad.addColorStop(0, 'rgba(91,141,239,0.3)');
+  grad.addColorStop(1, 'rgba(91,141,239,0.02)');
+
+  if (hourlyChart) hourlyChart.destroy();
+  hourlyChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [{
+        label: `${activePark} Avg Wait`,
+        data: values,
+        borderColor: '#5b8def',
+        backgroundColor: grad,
+        tension: 0.4,
+        fill: true,
+        pointRadius: 3,
+        pointBackgroundColor: '#5b8def',
+      }],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        x: {
+          ticks: { color: '#8892a8', font: { size: 10 } },
+          grid: { color: '#252d4520' },
+        },
+        y: {
+          min: 0,
+          ticks: { color: '#8892a8', callback: v => v + 'min' },
+          grid: { color: '#252d4520' },
+        },
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (ctx) => `Avg: ${ctx.parsed.y}min (${counts[ctx.dataIndex]} records)`,
+          },
+        },
+      },
+    },
+  });
+}
+
+// ---------------------------------------------------------------------------
+// Agents
+// ---------------------------------------------------------------------------
+
+function renderAgents(data) {
+  const agents = data.agents || [];
+  const list = document.getElementById('agents-list');
+
+  if (agents.length === 0) {
+    list.innerHTML = '<div class="no-data">No agent data available</div>';
+    return;
+  }
+
+  list.innerHTML = agents.map(a => {
+    const cls = `agent-${a.status}`;
+    const statusLabel = {
+      ok: 'OK', error: 'Error', unknown: 'Unknown', no_log: 'No Log'
+    }[a.status] || a.status;
+
+    let html = `<div class="agent-card ${cls}">
+      <div class="agent-header">
+        <span class="agent-name"><span class="agent-status-dot"></span>${escapeHtml(a.name)}</span>
+        <span class="agent-badge">${statusLabel}</span>
+      </div>
+      <div class="agent-meta">
+        <span>Schedule: ${escapeHtml(a.schedule)}</span>
+        ${a.last_run ? `<span>Last: ${escapeHtml(a.last_run)}</span>` : ''}
+      </div>`;
+
+    if (a.message) {
+      html += `<div class="agent-message">${escapeHtml(a.message)}</div>`;
+    }
+
+    html += '</div>';
+    return html;
+  }).join('');
+}
+
+// ---------------------------------------------------------------------------
 // Posts
 // ---------------------------------------------------------------------------
 
@@ -152,11 +260,84 @@ function renderPosts(posts) {
       </div>
       <div class="post-content">${escapeHtml(p.content)}</div>
       <div class="post-metrics">
-        Imp: <span>${p.impressions.toLocaleString()}</span>
-        &nbsp;Eng: <span>${p.engagements.toLocaleString()}</span>
+        Imp: <span>${(p.impressions || 0).toLocaleString()}</span>
+        &nbsp;Eng: <span>${(p.engagements || 0).toLocaleString()}</span>
       </div>
     </div>
   `).join('');
+}
+
+// ---------------------------------------------------------------------------
+// Engagement Chart
+// ---------------------------------------------------------------------------
+
+function renderEngagementChart(posts) {
+  const container = document.getElementById('engagement-chart-container');
+  const ctx = document.getElementById('engagement-chart');
+  if (!ctx || !posts || posts.length === 0) {
+    if (container) container.style.display = 'none';
+    return;
+  }
+  container.style.display = 'block';
+
+  // Group by date, sum impressions & engagements
+  const byDate = {};
+  for (const p of posts) {
+    const d = byDate[p.date] || (byDate[p.date] = { imp: 0, eng: 0 });
+    d.imp += p.impressions || 0;
+    d.eng += p.engagements || 0;
+  }
+
+  const dates = Object.keys(byDate).sort();
+  const impressions = dates.map(d => byDate[d].imp);
+  const engagements = dates.map(d => byDate[d].eng);
+
+  if (engagementChart) engagementChart.destroy();
+  engagementChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: dates.map(d => d.slice(5)), // MM-DD
+      datasets: [
+        {
+          label: 'Impressions',
+          data: impressions,
+          backgroundColor: 'rgba(91,141,239,0.6)',
+          borderRadius: 4,
+          yAxisID: 'y',
+        },
+        {
+          label: 'Engagements',
+          data: engagements,
+          backgroundColor: 'rgba(167,139,250,0.6)',
+          borderRadius: 4,
+          yAxisID: 'y1',
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        x: {
+          ticks: { color: '#8892a8', font: { size: 10 }, maxRotation: 45 },
+          grid: { display: false },
+        },
+        y: {
+          position: 'left',
+          ticks: { color: '#5b8def', font: { size: 10 } },
+          grid: { color: '#252d4520' },
+        },
+        y1: {
+          position: 'right',
+          ticks: { color: '#a78bfa', font: { size: 10 } },
+          grid: { display: false },
+        },
+      },
+      plugins: {
+        legend: { labels: { color: '#e4e8f1', font: { size: 11 } } },
+      },
+    },
+  });
 }
 
 // ---------------------------------------------------------------------------
@@ -249,7 +430,10 @@ document.querySelectorAll('.park-tab').forEach(tab => {
     document.querySelectorAll('.park-tab').forEach(t => t.classList.remove('active'));
     tab.classList.add('active');
     activePark = tab.dataset.park;
-    if (currentData) renderWaitTimes(currentData);
+    if (currentData) {
+      renderWaitTimes(currentData);
+      renderHourlyChart(currentData);
+    }
   });
 });
 
@@ -262,6 +446,7 @@ function formatTime(d) {
 }
 
 function escapeHtml(str) {
+  if (!str) return '';
   const div = document.createElement('div');
   div.textContent = str;
   return div.innerHTML;

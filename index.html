@@ -37,6 +37,7 @@
   <!-- Tabs -->
   <nav class="tabs">
     <button class="tab active" data-tab="wait-times">Wait Times</button>
+    <button class="tab" data-tab="agents">Agents</button>
     <button class="tab" data-tab="posts">Posts</button>
     <button class="tab" data-tab="accuracy">Accuracy</button>
   </nav>
@@ -48,11 +49,22 @@
       <button class="park-tab" data-park="TDS">TDS</button>
     </div>
     <div id="sim-info" class="sim-info"></div>
+    <div class="chart-container" id="hourly-chart-container">
+      <canvas id="hourly-chart"></canvas>
+    </div>
     <div id="wait-times-list" class="card-list"></div>
+  </section>
+
+  <!-- Agents -->
+  <section id="tab-agents" class="tab-content">
+    <div id="agents-list" class="card-list"></div>
   </section>
 
   <!-- Posts -->
   <section id="tab-posts" class="tab-content">
+    <div class="chart-container" id="engagement-chart-container">
+      <canvas id="engagement-chart"></canvas>
+    </div>
     <div id="posts-list" class="card-list"></div>
   </section>
 

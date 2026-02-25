@@ -214,6 +214,78 @@ header h1 {
 .wait-card.w-red    { border-left-color: var(--red); }
 .wait-card.w-red .wait { color: var(--red); }
 
+/* Agent cards */
+.agent-card {
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 12px;
+  border-left: 3px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.agent-card.agent-ok { border-left-color: var(--green); }
+.agent-card.agent-error { border-left-color: var(--red); }
+.agent-card.agent-unknown { border-left-color: var(--yellow); }
+.agent-card.agent-no_log { border-left-color: var(--text-dim); }
+
+.agent-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.agent-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.agent-status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.agent-ok .agent-status-dot { background: var(--green); }
+.agent-error .agent-status-dot { background: var(--red); }
+.agent-unknown .agent-status-dot { background: var(--yellow); }
+.agent-no_log .agent-status-dot { background: var(--text-dim); }
+
+.agent-badge {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.agent-ok .agent-badge { background: rgba(74,222,128,0.15); color: var(--green); }
+.agent-error .agent-badge { background: rgba(248,113,113,0.15); color: var(--red); }
+.agent-unknown .agent-badge { background: rgba(250,204,21,0.15); color: var(--yellow); }
+.agent-no_log .agent-badge { background: rgba(136,146,168,0.15); color: var(--text-dim); }
+
+.agent-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+
+.agent-message {
+  font-size: 0.72rem;
+  color: var(--red);
+  font-family: 'SF Mono', 'Menlo', monospace;
+  background: rgba(248,113,113,0.08);
+  padding: 6px 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 /* Post cards */
 .post-card {
   background: var(--surface);
@@ -301,6 +373,17 @@ header h1 {
   border-radius: 8px;
   padding: 12px;
   height: 250px;
+  margin-bottom: 12px;
+}
+
+/* Section title */
+.section-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-dim);
+  margin: 16px 0 8px;
 }
 
 /* Footer */
