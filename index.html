@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TDR Bot Dashboard</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div class="header-top">
+      <h1>TDR Bot</h1>
+      <div id="status-badge" class="badge">--</div>
+    </div>
+    <div class="header-meta">
+      <span id="last-updated">--</span>
+      <span id="weather-info">--</span>
+    </div>
+    <div class="header-stats">
+      <div class="stat">
+        <span class="stat-value" id="posts-today">-</span>
+        <span class="stat-label">Posts Today</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value" id="last-posted">-</span>
+        <span class="stat-label">Last Post</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value" id="last-collected">-</span>
+        <span class="stat-label">Last Collect</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Tabs -->
+  <nav class="tabs">
+    <button class="tab active" data-tab="wait-times">Wait Times</button>
+    <button class="tab" data-tab="posts">Posts</button>
+    <button class="tab" data-tab="accuracy">Accuracy</button>
+  </nav>
+
+  <!-- Wait Times -->
+  <section id="tab-wait-times" class="tab-content active">
+    <div class="park-tabs">
+      <button class="park-tab active" data-park="TDL">TDL</button>
+      <button class="park-tab" data-park="TDS">TDS</button>
+    </div>
+    <div id="sim-info" class="sim-info"></div>
+    <div id="wait-times-list" class="card-list"></div>
+  </section>
+
+  <!-- Posts -->
+  <section id="tab-posts" class="tab-content">
+    <div id="posts-list" class="card-list"></div>
+  </section>
+
+  <!-- Accuracy -->
+  <section id="tab-accuracy" class="tab-content">
+    <div class="accuracy-summary" id="accuracy-summary"></div>
+    <div class="chart-container">
+      <canvas id="accuracy-chart"></canvas>
+    </div>
+  </section>
+
+  <footer>
+    <p>Auto-refresh: 60s | Data updates every 10min during park hours</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
