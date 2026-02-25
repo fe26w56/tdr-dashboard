@@ -1,6 +1,6 @@
 // TDR Bot Dashboard - Client-side JS
 
-const BASE = '';
+const BASE = '.';
 let currentData = null;
 let postsData = null;
 let accuracyData = null;
