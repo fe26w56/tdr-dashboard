@@ -99,12 +99,18 @@
         "total": 6,
         "hits": 0,
         "accuracy": 0.0
+      },
+      {
+        "date": "2026-03-05",
+        "total": 12,
+        "hits": 8,
+        "accuracy": 66.7
       }
     ],
     "overall": {
-      "total": 64,
-      "hits": 17,
-      "accuracy": 26.6
+      "total": 76,
+      "hits": 25,
+      "accuracy": 32.9
     }
   }
 }
