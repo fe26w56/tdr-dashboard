@@ -42,12 +42,18 @@
         "total": 10,
         "hits": 3,
         "accuracy": 30.0
+      },
+      {
+        "date": "2026-03-05",
+        "total": 9,
+        "hits": 1,
+        "accuracy": 11.1
       }
     ],
     "overall": {
-      "total": 74,
-      "hits": 21,
-      "accuracy": 28.4
+      "total": 83,
+      "hits": 22,
+      "accuracy": 26.5
     }
   },
   "TDS": {
