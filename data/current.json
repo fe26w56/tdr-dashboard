@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-08T08:00:01.551334+00:00",
+  "updated_at": "2026-03-08T08:10:01.232435+00:00",
   "bot": {
-    "last_collected": "2026-03-08T07:55:02.285871+00:00",
+    "last_collected": "2026-03-08T08:05:01.983145+00:00",
     "last_posted": "2026-03-08T03:00:03.637529+00:00",
     "posts_today": 0
   },
@@ -12,240 +12,240 @@
       {
         "attraction_id": 8029,
         "name": "20,000 Leagues Under the Sea",
-        "wait_time": 20,
+        "wait_time": 15,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 13559,
         "name": "Anna and Elsa's Frozen Journey",
         "wait_time": 160,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8038,
         "name": "Aquatopia",
-        "wait_time": 30,
+        "wait_time": 15,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8022,
         "name": "Ariel's Playground",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8037,
         "name": "Big City Vehicles",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8044,
         "name": "Blowfish Balloon Race",
         "wait_time": 25,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8040,
         "name": "Caravan Carousel",
         "wait_time": 5,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8036,
         "name": "DisneySea Electric Railway (American Waterfront)",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8035,
         "name": "DisneySea Electric Railway (Port Discovery)",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8032,
         "name": "DisneySea Transit Steamer Line (American Waterfront)",
         "wait_time": 10,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8033,
         "name": "DisneySea Transit Steamer Line (Lost River Delta)",
-        "wait_time": 20,
+        "wait_time": 30,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8031,
         "name": "DisneySea Transit Steamer Line (Mediterranean Harbor)",
-        "wait_time": 25,
+        "wait_time": 10,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 13562,
         "name": "Fairy Tinker Bell's Busy Buggies",
-        "wait_time": 40,
+        "wait_time": 50,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8041,
         "name": "Flounder's Flying Fish Coaster",
-        "wait_time": 25,
+        "wait_time": 30,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8048,
         "name": "Fortress Explorations",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8027,
         "name": "Indiana Jones Adventure®: Temple of the Crystal Skull",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8025,
         "name": "Jasmine's Flying Carpets",
         "wait_time": 25,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8028,
         "name": "Journey to the Center of the Earth",
         "wait_time": 140,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8043,
         "name": "Jumpin' Jellyfish",
-        "wait_time": 20,
+        "wait_time": 15,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8026,
         "name": "Mermaid Lagoon Theater",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8051,
         "name": "Nemo & Friends SeaRider",
-        "wait_time": 60,
+        "wait_time": 50,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 13561,
         "name": "Peter Pan's Never Land Adventure",
         "wait_time": 60,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8046,
         "name": "Raging Spirits",
-        "wait_time": 90,
+        "wait_time": 80,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 13560,
         "name": "Rapunzel's Lantern Festival",
-        "wait_time": 60,
+        "wait_time": 50,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8042,
         "name": "Scuttle's Scooters",
         "wait_time": 20,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8039,
         "name": "Sindbad's Storybook Voyage",
         "wait_time": 5,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8024,
         "name": "Soaring: Fantastic Flight",
         "wait_time": 140,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8049,
         "name": "The Leonardo Challenge",
         "wait_time": 10,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8030,
         "name": "The Magic Lamp Theater",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8045,
         "name": "The Whirlpool",
-        "wait_time": 25,
+        "wait_time": 15,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8047,
         "name": "Tower of Terror",
-        "wait_time": 70,
+        "wait_time": 60,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8023,
         "name": "Toy Story Mania!",
         "wait_time": 120,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8050,
         "name": "Turtle Talk",
-        "wait_time": 30,
+        "wait_time": 40,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       },
       {
         "attraction_id": 8034,
         "name": "Venetian Gondolas",
         "wait_time": 40,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:02.285871+00:00"
+        "collected_at": "2026-03-08T08:05:01.983145+00:00"
       }
     ],
     "TDL": [
@@ -254,259 +254,259 @@
         "name": "Alice's Tea Party",
         "wait_time": 10,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 7997,
         "name": "Beaver Brothers Explorer Canoes",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 7994,
         "name": "Big Thunder Mountain",
         "wait_time": 70,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8004,
         "name": "Castle Carrousel",
         "wait_time": 15,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8011,
         "name": "Chip 'n Dale's Treehouse",
         "wait_time": 5,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8000,
         "name": "Cinderella's Fairy Tale Hall",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 7992,
         "name": "Country Bear Theater",
         "wait_time": 15,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8013,
         "name": "Donald's Boat",
         "wait_time": 5,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8003,
         "name": "Dumbo The Flying Elephant",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8255,
         "name": "Enchanted Tale of Beauty and the Beast",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8012,
         "name": "Gadget's Go Coaster",
         "wait_time": 30,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8014,
         "name": "Goofy's Paint 'n' Play House",
-        "wait_time": 15,
+        "wait_time": 5,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8005,
         "name": "Haunted Mansion",
-        "wait_time": 30,
+        "wait_time": 25,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 7987,
         "name": "Jungle Cruise: Wildlife Expeditions",
-        "wait_time": 15,
+        "wait_time": 20,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 7993,
         "name": "Mark Twain Riverboat",
         "wait_time": 10,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8001,
         "name": "Mickey's PhilharMagic",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8010,
         "name": "Minnie's House",
-        "wait_time": 15,
+        "wait_time": 40,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8018,
         "name": "Monsters, Inc. Ride & Go Seek!",
         "wait_time": 80,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 7985,
         "name": "Omnibus",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8019,
         "name": "Penny Arcade",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 7998,
         "name": "Peter Pan's Flight",
-        "wait_time": 40,
+        "wait_time": 25,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8002,
         "name": "Pinocchio's Daring Journey",
         "wait_time": 20,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 7986,
         "name": "Pirates of the Caribbean",
         "wait_time": 10,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8008,
         "name": "Pooh's Hunny Hunt",
         "wait_time": 82,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8009,
         "name": "Roger Rabbit's Car Toon Spin",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 7999,
         "name": "Snow White's Adventures",
         "wait_time": 20,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 7996,
         "name": "Splash Mountain",
         "wait_time": 50,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8015,
         "name": "Star Tours: The Adventures Continue",
-        "wait_time": 5,
+        "wait_time": 10,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8021,
         "name": "Stitch Encounter",
         "wait_time": 10,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 7989,
         "name": "Swiss Family Treehouse",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 7990,
         "name": "The Enchanted Tiki Room: Stitch Presents “Aloha E Komo Mai!”",
         "wait_time": 10,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8254,
         "name": "The Happy Ride with Baymax",
         "wait_time": 100,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 7995,
         "name": "Tom Sawyer Island Rafts",
-        "wait_time": 5,
-        "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "wait_time": 0,
+        "is_open": false,
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8020,
         "name": "Toon Park",
         "wait_time": 0,
         "is_open": false,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 7988,
         "name": "Western River Railroad",
         "wait_time": 25,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 7991,
         "name": "Westernland Shootin' Gallery",
-        "wait_time": 5,
+        "wait_time": 15,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       },
       {
         "attraction_id": 8006,
         "name": "“it’s a small world with Groot”",
         "wait_time": 15,
         "is_open": true,
-        "collected_at": "2026-03-08T07:55:01.757605+00:00"
+        "collected_at": "2026-03-08T08:05:01.584451+00:00"
       }
     ]
   },
@@ -551,6 +551,11 @@
         "hour": "16",
         "avg": 26.2,
         "count": 344
+      },
+      {
+        "hour": "17",
+        "avg": 27.9,
+        "count": 52
       }
     ],
     "TDS": [
@@ -593,6 +598,11 @@
         "hour": "16",
         "avg": 49.4,
         "count": 322
+      },
+      {
+        "hour": "17",
+        "avg": 48.0,
+        "count": 52
       }
     ]
   },
@@ -601,7 +611,7 @@
       "name": "Data Collector",
       "schedule": "Every 5min",
       "status": "ok",
-      "last_run": "2026-03-08 07:55:02",
+      "last_run": "2026-03-08 08:05:02",
       "message": ""
     },
     {
