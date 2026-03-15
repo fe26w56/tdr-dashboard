@@ -207,12 +207,18 @@
         "total": 15,
         "hits": 8,
         "accuracy": 53.3
+      },
+      {
+        "date": "2026-03-14",
+        "total": 12,
+        "hits": 3,
+        "accuracy": 25.0
       }
     ],
     "overall": {
-      "total": 177,
-      "hits": 57,
-      "accuracy": 32.2
+      "total": 189,
+      "hits": 60,
+      "accuracy": 31.7
     }
   }
 }
