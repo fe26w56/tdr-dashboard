@@ -102,12 +102,18 @@
         "total": 16,
         "hits": 4,
         "accuracy": 25.0
+      },
+      {
+        "date": "2026-03-15",
+        "total": 16,
+        "hits": 7,
+        "accuracy": 43.8
       }
     ],
     "overall": {
-      "total": 214,
-      "hits": 62,
-      "accuracy": 29.0
+      "total": 230,
+      "hits": 69,
+      "accuracy": 30.0
     }
   },
   "TDS": {
@@ -213,12 +219,18 @@
         "total": 12,
         "hits": 3,
         "accuracy": 25.0
+      },
+      {
+        "date": "2026-03-15",
+        "total": 6,
+        "hits": 3,
+        "accuracy": 50.0
       }
     ],
     "overall": {
-      "total": 189,
-      "hits": 60,
-      "accuracy": 31.7
+      "total": 195,
+      "hits": 63,
+      "accuracy": 32.3
     }
   }
 }
