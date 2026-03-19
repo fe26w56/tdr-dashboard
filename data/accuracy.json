@@ -255,12 +255,18 @@
         "total": 14,
         "hits": 3,
         "accuracy": 21.4
+      },
+      {
+        "date": "2026-03-18",
+        "total": 11,
+        "hits": 0,
+        "accuracy": 0.0
       }
     ],
     "overall": {
-      "total": 224,
+      "total": 235,
       "hits": 71,
-      "accuracy": 31.7
+      "accuracy": 30.2
     }
   }
 }
