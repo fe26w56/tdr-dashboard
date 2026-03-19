@@ -120,11 +120,17 @@
         "total": 16,
         "hits": 6,
         "accuracy": 37.5
+      },
+      {
+        "date": "2026-03-18",
+        "total": 16,
+        "hits": 5,
+        "accuracy": 31.2
       }
     ],
     "overall": {
-      "total": 262,
-      "hits": 79,
+      "total": 278,
+      "hits": 84,
       "accuracy": 30.2
     }
   },
