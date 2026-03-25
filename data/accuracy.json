@@ -156,12 +156,18 @@
         "total": 12,
         "hits": 3,
         "accuracy": 25.0
+      },
+      {
+        "date": "2026-03-24",
+        "total": 15,
+        "hits": 5,
+        "accuracy": 33.3
       }
     ],
     "overall": {
-      "total": 342,
-      "hits": 106,
-      "accuracy": 31.0
+      "total": 357,
+      "hits": 111,
+      "accuracy": 31.1
     }
   },
   "TDS": {
