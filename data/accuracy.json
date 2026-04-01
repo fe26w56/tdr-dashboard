@@ -2,12 +2,6 @@
   "TDL": {
     "daily": [
       {
-        "date": "2026-03-01",
-        "total": 9,
-        "hits": 2,
-        "accuracy": 22.2
-      },
-      {
         "date": "2026-03-02",
         "total": 10,
         "hits": 1,
@@ -183,19 +177,13 @@
       }
     ],
     "overall": {
-      "total": 400,
-      "hits": 127,
-      "accuracy": 31.8
+      "total": 391,
+      "hits": 125,
+      "accuracy": 32.0
     }
   },
   "TDS": {
     "daily": [
-      {
-        "date": "2026-03-01",
-        "total": 6,
-        "hits": 4,
-        "accuracy": 66.7
-      },
       {
         "date": "2026-03-02",
         "total": 6,
@@ -372,9 +360,9 @@
       }
     ],
     "overall": {
-      "total": 331,
-      "hits": 106,
-      "accuracy": 32.0
+      "total": 325,
+      "hits": 102,
+      "accuracy": 31.4
     }
   }
 }
