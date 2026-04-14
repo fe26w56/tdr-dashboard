@@ -174,12 +174,18 @@
         "total": 8,
         "hits": 0,
         "accuracy": 0.0
+      },
+      {
+        "date": "2026-04-13",
+        "total": 16,
+        "hits": 6,
+        "accuracy": 37.5
       }
     ],
     "overall": {
-      "total": 390,
-      "hits": 126,
-      "accuracy": 32.3
+      "total": 406,
+      "hits": 132,
+      "accuracy": 32.5
     }
   },
   "TDS": {
