@@ -174,12 +174,18 @@
         "total": 8,
         "hits": 5,
         "accuracy": 62.5
+      },
+      {
+        "date": "2026-05-05",
+        "total": 8,
+        "hits": 5,
+        "accuracy": 62.5
       }
     ],
     "overall": {
-      "total": 355,
-      "hits": 122,
-      "accuracy": 34.4
+      "total": 363,
+      "hits": 127,
+      "accuracy": 35.0
     }
   },
   "TDS": {
