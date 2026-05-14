@@ -174,12 +174,18 @@
         "total": 11,
         "hits": 6,
         "accuracy": 54.5
+      },
+      {
+        "date": "2026-05-13",
+        "total": 8,
+        "hits": 0,
+        "accuracy": 0.0
       }
     ],
     "overall": {
-      "total": 335,
+      "total": 343,
       "hits": 111,
-      "accuracy": 33.1
+      "accuracy": 32.4
     }
   },
   "TDS": {
