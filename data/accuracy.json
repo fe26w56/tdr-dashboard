@@ -363,11 +363,17 @@
         "total": 5,
         "hits": 1,
         "accuracy": 20.0
+      },
+      {
+        "date": "2026-05-28",
+        "total": 15,
+        "hits": 4,
+        "accuracy": 26.7
       }
     ],
     "overall": {
-      "total": 384,
-      "hits": 106,
+      "total": 399,
+      "hits": 110,
       "accuracy": 27.6
     }
   }
