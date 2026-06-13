@@ -363,12 +363,18 @@
         "total": 13,
         "hits": 3,
         "accuracy": 23.1
+      },
+      {
+        "date": "2026-06-12",
+        "total": 13,
+        "hits": 7,
+        "accuracy": 53.8
       }
     ],
     "overall": {
-      "total": 383,
-      "hits": 102,
-      "accuracy": 26.6
+      "total": 396,
+      "hits": 109,
+      "accuracy": 27.5
     }
   }
 }
