@@ -174,11 +174,17 @@
         "total": 10,
         "hits": 2,
         "accuracy": 20.0
+      },
+      {
+        "date": "2026-07-16",
+        "total": 8,
+        "hits": 3,
+        "accuracy": 37.5
       }
     ],
     "overall": {
-      "total": 344,
-      "hits": 130,
+      "total": 352,
+      "hits": 133,
       "accuracy": 37.8
     }
   },
